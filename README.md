@@ -7,6 +7,8 @@ This study project is about setting the theme light or dark in your application 
 https://www.figma.com/file/fdKkxhtNoJmT2oE2KarFG5/Theme-Project?node-id=0%3A1
 <img src="https://kleberux.com/projects/theme-project.jpg">
 
+### Deployed at GitHub Pages
+https://kleber-smartdev.github.io/Theme-By-System-Hours-Click-v2.0/
 
 ### Contribute, Fork it, Share it!
 https://kleberux.com/
