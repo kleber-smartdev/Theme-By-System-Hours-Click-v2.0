@@ -1,0 +1,133 @@
+/* Light / Dark theme colors */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root [data-theme="light_theme"] {
+  --white: #fff;
+  --bg-color: #f8f8f8;
+  --color: #222;
+  --secondary-color: #ff7f57;
+  --icon-bg-color: #333;
+  --icon-color: #f8f8f8;
+}
+
+:root [data-theme="dark_theme"] {
+  --white: #fff;
+  --bg-color: #222;
+  --color: #fff;
+  --secondary-color: #ff7f57;
+  --icon-bg-color: #333;
+  --icon-color: #f8f8f8;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: var(--bg-color);
+  color: var(--color);
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+  to {
+    top: 100;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    top: 20%;
+    opacity: 0;
+  }
+  to {
+    top: 100;
+    opacity: 1;
+  }
+}
+
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  animation: fadeIn 1s ease;
+  -webkit-animation: fadeIn 1s ease;
+}
+
+.wrapper-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button {
+  background: var(--color);
+  color: var(--bg-color);
+  width: 150px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  cursor: pointer !important;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+  -webkit-transform: scale(1.05);
+}
+
+.divider {
+  height: 75px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 0;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.dot {
+  color: var(--secondary-color);
+}
+
+p {
+  text-align: center;
+  margin: 18px;
+  font-weight: normal;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons i {
+  color: var(--white);
+  background: var(--icon-bg-color);
+  height: 15px;
+  width: 15px;
+  padding: 13px;
+  margin: 0 10px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  position: relative;
+}
+
+.icons i:hover,
+.icons i:active {
+  color: var(--icon-color);
+  cursor: pointer !important;
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+  -webkit-transform: scale(1.2);
+  text-decoration: none;
+}

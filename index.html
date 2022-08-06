@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/447e7d4239.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Theme Project in JS v2.0</title>
+  </head>
+  <body data-theme="light_theme">
+    <div class="wrapper">
+      <h1>Theme Color in JS v2.0<span class="dot">.</span></h1>
+      <p>Based on the System Theme, Hours, and by button click.</p>
+      <div class="divider"></div>
+      <div class="wrapper-buttons">
+        <div class="button">
+          <a onclick="document.body.setAttribute('data-theme', 'light_theme')"
+            >Light Theme <i class="fa fa-sun"></i
+          ></a>
+        </div>
+        <div class="button">
+          <a onclick="document.body.setAttribute('data-theme', 'dark_theme')"
+            >Dark Theme <i class="fa fa-moon"></i
+          ></a>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="icons">
+        <a href="https://kleberux.com" target="_blank" title="Portfolio"
+          ><i class="fa fa-laptop"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/klebersousa"
+          target="_blank"
+          title="Linkedin"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/kleber-smartdev"
+          target="_blank"
+          title="GitHub"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a href="mailto:kleber.sousa@yahoo.com" target="_blank" title="Email"
+          ><i class="fa fa-paper-plane"></i
+        ></a>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
