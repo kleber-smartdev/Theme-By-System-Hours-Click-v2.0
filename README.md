@@ -4,7 +4,7 @@ This study project is about setting the theme light or dark in your application 
 
 
 ### FigJam (Figma) Visual IF before coding!
-https://www.figma.com/file/fdKkxhtNoJmT2oE2KarFG5/Theme-Project?node-id=0%3A1
+- [Figma File](https://www.figma.com/file/fdKkxhtNoJmT2oE2KarFG5/Theme-Project?node-id=0%3A1)
 <img src="https://kleberux.com/projects/theme-project.jpg">
 
 ### Deployed on GitHub Pages
